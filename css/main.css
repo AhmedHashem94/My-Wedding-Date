@@ -1,20 +1,25 @@
 body {
   background-color: #333;
+  font-family: "Gugi", cursive;
+  font-family: "Pacifico", cursive;
+  font-family: "Monoton", cursive;
 }
 .container {
   color: #fff;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 h1 {
   font-weight: normal;
   color: crimson;
 }
-
+ul {
+  padding: 0;
+}
 li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1em;
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
@@ -22,5 +27,29 @@ li {
 
 li span {
   display: block;
-  font-size: 4.5rem;
+  font-size: 3rem;
+}
+#days {
+  color: #e74c3c;
+}
+.seconds {
+  color: #d63031;
+}
+#hours {
+  color: #e67e22;
+}
+.minutes {
+  color: #e17055;
+}
+#minutes {
+  color: #f39c12;
+}
+.hours {
+  color: #fdcb6e;
+}
+#seconds {
+  color: #f1c40f;
+}
+.days {
+  color: #ffeaa7;
 }
