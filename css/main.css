@@ -1,8 +1,15 @@
 body {
-  background-color: #333;
-  font-family: "Gugi", cursive;
-  font-family: "Pacifico", cursive;
-  font-family: "Monoton", cursive;
+  font-family: "Lemon", cursive;
+  letter-spacing: 3px;
+}
+.overlay {
+  background-color: rgba(1, 22, 30, 0.5);
+}
+.our-img {
+  background-image: url(../imgs/A-M.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 .container {
   color: #fff;
@@ -12,7 +19,7 @@ body {
 
 h1 {
   font-weight: normal;
-  color: crimson;
+  color: #d81159;
 }
 ul {
   padding: 0;
@@ -30,26 +37,26 @@ li span {
   font-size: 3rem;
 }
 #days {
-  color: #e74c3c;
+  color: #d62828;
 }
 .seconds {
-  color: #d63031;
+  color: #d62828;
 }
 #hours {
-  color: #e67e22;
+  color: #f77f00;
 }
 .minutes {
-  color: #e17055;
+  color: #f77f00;
 }
 #minutes {
-  color: #f39c12;
+  color: #fcbf49;
 }
 .hours {
-  color: #fdcb6e;
+  color: #fcbf49;
 }
 #seconds {
-  color: #f1c40f;
+  color: #eae2b7;
 }
 .days {
-  color: #ffeaa7;
+  color: #eae2b7;
 }
