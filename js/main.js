@@ -23,7 +23,7 @@ $(document).ready(function() {
     hour = minute * 60,
     day = hour * 24;
 
-  let countDown = new Date("Mar 12, 2021 08:00:00").getTime(),
+  let countDown = new Date("Feb 19, 2021 07:00:00").getTime(),
     x = setInterval(function() {
       let now = new Date().getTime(),
         distance = countDown - now;
