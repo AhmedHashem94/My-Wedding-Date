@@ -23,7 +23,7 @@ $(document).ready(function() {
     hour = minute * 60,
     day = hour * 24;
 
-  let countDown = new Date("Feb 4, 2021 15:00:00").getTime(),
+  let countDown = new Date("Feb 6, 2021 15:00:00").getTime(),
     x = setInterval(function() {
       let now = new Date().getTime(),
         distance = countDown - now;
@@ -42,7 +42,7 @@ $(document).ready(function() {
       //do something later when date is reached
       //if (distance < 0) {
       //  clearInterval(x);
-      //  'IT'S MY BIRTHDAY!;
+      //  'IT'S MY Wedding Day!;
       //}
     }, second);
   // end clock
